@@ -1,3 +1,7 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 html {
     height: 100vh;
     font-family: "Open Sans", sans-serif;
@@ -23,6 +27,8 @@ body {
     margin: 0 auto;
     background-color: white;
     box-shadow: 0 10px 30px rgba(0,0,0,.2);
+    border-top: 2px solid #ab0e0e;
+
 }
 
 #icon_zertificon {
@@ -63,6 +69,15 @@ body {
     width: 24%;
     margin: 0 auto;
     display: block;
+    background-color: #de1839;
+    border: #de1839#de1839;
+    border-radius: 2px;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    border: #de1839;
+    text-shadow: 0px 0px 1px black;
 }
 
 #login-error-message {
