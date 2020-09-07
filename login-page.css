@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+:root {
+  --bright-red: #de1839;
+}
+
 html {
     height: 100vh;
     font-family: "Open Sans", sans-serif;
@@ -28,7 +32,7 @@ body {
     background-color: white;
     box-shadow: 0 10px 30px rgba(0,0,0,.2);
     border: 1px solid #ab0e0e;
-
+    border-radius: 2px;
 }
 
 #icon_zertificon {
@@ -74,14 +78,14 @@ body {
     margin: 0 auto;
     margin-bottom: 19px;
     display: block;
-    background-color: #de1839;
-    border: #de1839#de1839;
+    background-color: var(--bright-red);
+    border: var(--bright-red);
     border-radius: 2px;
     padding: 5px;
     color: white;
     font-weight: bold;
     font-size: 14px;
-    border: #de1839;
+    border: var(--bright-red);
     text-shadow: 0px 0px 1px black;
     cursor: pointer;
 }
@@ -93,5 +97,5 @@ body {
 #login-error-message {
     text-align: center;
     font-size: 9px;
-    color: #de1839;
+    color: var(--bright-red);
 }
