@@ -1,15 +1,15 @@
 *, *:before, *:after {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 html {
     height: 100vh;
     font-family: "Open Sans", sans-serif;
+    margin: 0px;
 }
 
 body {
     height: 100vh;
-    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-items: center;
@@ -27,7 +27,7 @@ body {
     margin: 0 auto;
     background-color: white;
     box-shadow: 0 10px 30px rgba(0,0,0,.2);
-    border-top: 2px solid #ab0e0e;
+    border: 1px solid #ab0e0e;
 
 }
 
@@ -54,6 +54,9 @@ body {
     width: 90%;
 }
 
+#login-form {
+    margin-top: 45px;
+}
 
 .login-form-field {
     display: block;
@@ -62,12 +65,14 @@ body {
     width: 80%;
     border: none;
     border-bottom: 1px solid #ce102d;
+    margin-bottom: 25px;
 }
 
 
 #login-form-submit {
     width: 24%;
     margin: 0 auto;
+    margin-bottom: 19px;
     display: block;
     background-color: #de1839;
     border: #de1839#de1839;
@@ -81,5 +86,6 @@ body {
 }
 
 #login-error-message {
-  text-align: center;
+    text-align: center;
+    font-size: 9px;
 }
