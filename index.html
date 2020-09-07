@@ -7,11 +7,14 @@
 <body>
   <main id="main-container">
     <h1>Management Center</h1>
-      <form id="login-form">
-        <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
-        <input type="passwort" name="passwort" id="passwort-field" class="login-form-field" placeholder="Password">
-        <input type="submit" value="Login" id="login-form-submit">
-      </form>
+    <form id="login-form">
+      <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username*">
+      <input type="passwort" name="passwort" id="passwort-field" class="login-form-field" placeholder="Password*">
+      <input type="submit" value="Login" id="login-form-submit">
+    </form>
+    <div id="login-error-message">
+      <p id="error-message">*Field Is Required</p>
+    </div>
   </main>
 </body>
 </html>
