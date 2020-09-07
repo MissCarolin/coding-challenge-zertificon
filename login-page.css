@@ -25,18 +25,26 @@ body {
     box-shadow: 0 10px 30px rgba(0,0,0,.2);
 }
 
+#icon_zertificon {
+    width: 2rem;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 25px;
+}
+
 .headline-form {
     display: block;
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 19px;
     width: 80%;
     border: none;
     font-size: 20px;
     text-align: center;
     font-weight: bolder;
+    letter-spacing: 0.5px;
 }
 
-#content-login-form {
+#content-login-container {
     width: 90%;
 }
 
@@ -47,16 +55,9 @@ body {
     margin-bottom: 20px;
     width: 80%;
     border: none;
-}
-
-#username-field {
-    border-bottom: 2px solid #ce102d;
-}
-
-#password-field {
     border-bottom: 1px solid #ce102d;
-
 }
+
 
 #login-form-submit {
     width: 24%;
