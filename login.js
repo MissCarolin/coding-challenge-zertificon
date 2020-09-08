@@ -11,7 +11,7 @@ console.log(passwordIcon)
 
 // check if either username or password field has left blanc on login click and show message error if so (add styles to css selctor)
 const verifyUserInput = () => {
-    event.preventDefault();
+  event.preventDefault();
     if (!username.value || !password.value) {
      loginErrorMsg.style.visibility = "initial";
     }
@@ -21,21 +21,20 @@ const verifyUserInput = () => {
     if (!password.value) {
       password.style.borderBottom ="1px solid #ce102d";
     } else {
-// check if the hard coded user enters correct info, then redirect
-       if (username.value === "user" && password.value === "developer") {
-        window.location = "https://www.zertificon.com/";
-        } else {
-          validationErrorMsg.style.visibility = "initial"
-        }
 
+// check if the hard coded user enters correct info, then redirect
+      if (username.value === "user" && password.value === "developer") {
+      window.location = "https://www.zertificon.com/";
+      } else {
+        validationErrorMsg.style.visibility = "initial"
       }
+    }
 };
 
 form.addEventListener('submit', verifyUserInput);
 
 
 //show or hide password
-
 const togglePassword = () => {
   if (password.type === 'password') {
     password.type = 'text'

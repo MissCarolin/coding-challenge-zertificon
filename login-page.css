@@ -28,7 +28,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 350px;
-    height: 350px;
+    height: 400px;
     margin: 0 auto;
     background-color: white;
     box-shadow: 0 10px 30px rgba(0,0,0,.2);
@@ -89,7 +89,7 @@ body {
     padding: 5px;
     color: white;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 15px;
     border: var(--bright-red);
     text-shadow: 0px 0px 1px black;
     cursor: pointer;
@@ -97,8 +97,8 @@ body {
 }
 
 .login-form-submit:hover {
-      background-color: #a50e26;
-    }
+    background-color: #a50e26;
+}
 
 #login-error-message {
     text-align: center;
@@ -108,21 +108,40 @@ body {
 }
 
 #validation-error-message {
-   text-align: center;
-   font-size: 11px;
-   color: var(--bright-red);
-   visibility: hidden;
+    text-align: center;
+    font-size: 11px;
+    color: var(--bright-red);
+    visibility: hidden;
 }
 
 .preview_icon {
-  float: right;
-  margin-left: -25px;
-  margin-top: -46px;
-  position: relative;
-  z-index: 2;
-  margin-right: 29px;
+    float: right;
+    margin-left: -25px;
+    margin-top: -46px;
+    position: relative;
+    z-index: 2;
+    margin-right: 29px;
 }
 
 .fa {
-  color: grey;
+    color: grey;
+}
+
+#sign-up-button {
+  font-size: 10px;
+  background-color: #e83553b8;
+  opacity: 0.8;
+  font-size: 12px;
+  background-color: #e83553b8;
+  opacity: 0.8;
+  width: 20%;
+}
+
+#sign-up-button:hover {
+    background-color: #a50e26;
+}
+
+#or-text {
+    text-align: center;
+    font-size: 11px;
 }
