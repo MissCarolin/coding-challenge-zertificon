@@ -4,6 +4,7 @@
 
 :root {
   --bright-red: #de1839;
+  --dark-grey: #384047 ;
 }
 
 html {
@@ -19,7 +20,7 @@ body {
     justify-items: center;
     align-items: center;
     background-color: #f7f7f7;
-    color: #384047;
+    color: var(--dark-grey);
 }
 
 #main-container {
@@ -68,8 +69,9 @@ body {
     margin-bottom: 20px;
     width: 80%;
     border: none;
-    border-bottom: 1px solid #ce102d;
+    border-bottom: 1px solid var(--dark-grey);
     margin-bottom: 25px;
+    outline: none;
 }
 
 
@@ -79,7 +81,6 @@ body {
     margin-bottom: 19px;
     display: block;
     background-color: var(--bright-red);
-    border: var(--bright-red);
     border-radius: 2px;
     padding: 5px;
     color: white;
