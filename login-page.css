@@ -74,6 +74,10 @@ body {
     outline: none;
 }
 
+::placeholder {
+  color: var(--dark-grey);
+}
+
 
 .login-form-submit {
     width: 24%;

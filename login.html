@@ -10,10 +10,10 @@
     <div id="content-login-container">
       <img src="Icon_zertificon.png" id="icon_zertificon">
       <h1 class="headline-form">Management Center</h1>
-      <form id="login-form">
+      <form id="login-form" method="post" action="">
         <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username *">
         <input type="password" minlength="8" name="password" id="password-field" class="login-form-field" placeholder="Password *">
-        <input type="submit" value="Login"  class="login-form-submit">
+        <input type="submit" value="Login"  class="login-form-submit" id="login-button">
       </form>
       <div id="login-error-message">
         <p id="error-message">* field is required</p>
