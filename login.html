@@ -17,16 +17,18 @@
       <form id="login-form" method="post" action="">
         <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username *">
 
-        <input type="password" minlength="8" name="password" id="password-field" class="login-form-field" placeholder="Password *">
-         <a href="#" class="preview_icon"><i class="fa fa-eye-slash"></i></a>
-          <input type="submit" value="Login"  class="login-form-submit" id="login-button">
+        <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password *">
+        <a href="#" class="preview_icon"><i class="fa fa-eye-slash"></i></a>
+        <input type="submit" value="Login"  class="login-form-submit" id="login-button">
       </form>
       <div id="login-error-message">
         <p id="error-message">* field is required</p>
       </div>
       <div id="sign-up-container">
-      <p id="or-text">or</p>
-      <input type="button" value="Sign up"  class="login-form-submit" id="sign-up-button">
+        <p id="or-text">or</p>
+        <a href="signin.html">
+          <input type="button" value="Sign up"  class="login-form-submit" id="sign-up-button">
+        </a>
       </div>
     </div>
   </main>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <script src="https://use.fontawesome.com/215a98e83f.js"></script>
+  <title>Sign up Management Center</title>
+  <link rel="stylesheet" href="login-page.css">
+</head>
+<body>
+  <main id="main-container">
+    <div id="content-login-container">
+      <img src="Icon_zertificon.png" id="icon_zertificon">
+      <h1 class="headline-form">Management Center</h1>
+      <div id="validation-error-container">
+        <p id="validation-error-message">invalid email </p>
+      </div>
+      <form id="login-form" method="post" action="">
+        <input type="text" name="Enter username" id="username-field" class="login-form-field" placeholder="Enter a Username">
+
+        <input type="text" placeholder="Enter Email" class="login-form-field" name="email" id="email" required>
+
+        <input type="password" minlength="8" name="password" id="password-field" class="login-form-field" placeholder="Enter a Password">
+          <a href="#" class="preview_icon"><i class="fa fa-eye-slash"></i></a>
+        <input type="password" placeholder="Repeat Password" class="login-form-field" name="psw-repeat" id="psw-repeat" required>
+          <a href="#" class="preview_icon"><i class="fa fa-eye-slash"></i></a>
+        <input type="submit" value="Sign up"  class="login-form-submit" id="login-button">
+      </form>
+      <div id="login-error-message">
+        <p id="error-message">* field is required</p>
+    </div>
+  </main>
+  <script src="login.js"></script>
+</body>
+</html>
+
