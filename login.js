@@ -4,10 +4,9 @@ const username = document.querySelector("#username-field")
 const password = document.querySelector('#password-field')
 const validationErrorMsg = document.querySelector('#validation-error-message')
 const loginErrorMsg = document.querySelector("#login-error-message");
-// const formField = document.querySelectorAll(".login-form-field")
-// const placerholderUsername = document.querySelector('input[placeholder]');
 
 
+// check if either username or password field has left blanc on login click and show message error if so (add styles to css selctor)
 form.addEventListener("submit", (event) => {
     event.preventDefault();
     if (!username.value || !password.value) {
@@ -19,8 +18,8 @@ form.addEventListener("submit", (event) => {
     if (!password.value) {
       password.style.borderBottom ="1px solid #ce102d";
     } else {
+// check if the hard coded user enters correct info, then redirect
        if (username.value === "user" && password.value === "developer") {
-        // alert("You have successfully logged in.");
         window.location = "https://www.zertificon.com/";
         } else {
           validationErrorMsg.style.visibility = "initial"
@@ -29,14 +28,3 @@ form.addEventListener("submit", (event) => {
       }
 });
 
-
-// loginButton.addEventListener("submit", (event) => {
-//     event.preventDefault();
-
-//     if (username.value === "user" && password.value === "developer") {
-//         alert("You have successfully logged in.");
-//         location.reload();
-//     } else {
-//         alert("error");
-//     }
-// })

@@ -112,13 +112,13 @@ body {
    font-size: 11px;
    color: var(--bright-red);
    visibility: hidden;
-    /*padding: 5px 5px;
-    margin: 0px;*/
 }
 
-#validation-error-container {
-  /*border: 1px solid var(--bright-red);
-  border-radius: 2px;
-  padding: 0;
-  width: fit-content;*/
+.field-icon {
+  float: right;
+  margin-left: -25px;
+  margin-top: -46px;
+  position: relative;
+  z-index: 2;
+  margin-right: 29px;
 }

@@ -2,6 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
+  <script src="https://use.fontawesome.com/215a98e83f.js"></script>
   <title>Log in Management Center</title>
   <link rel="stylesheet" href="login-page.css">
 </head>
@@ -15,7 +16,10 @@
       </div>
       <form id="login-form" method="post" action="">
         <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username *">
+
         <input type="password" minlength="8" name="password" id="password-field" class="login-form-field" placeholder="Password *">
+        <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+
         <input type="submit" value="Login"  class="login-form-submit" id="login-button">
       </form>
       <div id="login-error-message">
@@ -26,3 +30,4 @@
   <script src="login.js"></script>
 </body>
 </html>
+
