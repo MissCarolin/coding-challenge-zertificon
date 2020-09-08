@@ -2,6 +2,7 @@ const form = document.querySelector("#login-form");
 const loginButton = document.querySelector("#login-button");
 const username = document.querySelector("#username-field")
 const password = document.querySelector('#password-field')
+const validationErrorMsg = document.querySelector('#validation-error-message')
 const loginErrorMsg = document.querySelector("#login-error-message");
 // const formField = document.querySelectorAll(".login-form-field")
 // const placerholderUsername = document.querySelector('input[placeholder]');
@@ -22,7 +23,7 @@ form.addEventListener("submit", (event) => {
         // alert("You have successfully logged in.");
         window.location = "https://www.zertificon.com/";
         } else {
-          alert("error")
+          validationErrorMsg.style.visibility = "initial"
         }
 
       }
