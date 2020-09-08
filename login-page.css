@@ -86,7 +86,7 @@ body {
     display: block;
     background-color: var(--bright-red);
     border-radius: 2px;
-    padding: 5px;
+    padding: 8px;
     color: white;
     font-weight: bold;
     font-size: 15px;
@@ -135,6 +135,7 @@ body {
   background-color: #e83553b8;
   opacity: 0.8;
   width: 20%;
+  padding: 6px;
 }
 
 #sign-up-button:hover {
